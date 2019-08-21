@@ -1,0 +1,13 @@
+{
+  "name": "weather-proxy",
+  "scripts": {
+    "start": "netlify-lambda serve functions",
+    "build": "netlify-lambda build functions"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "netlify-lambda": "^1.6.2"
+  }
+}
