@@ -1,0 +1,3 @@
+[Settings]
+[build]
+  functions = "functions/"
