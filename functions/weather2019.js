@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 const key = process.env.DARKSKY;
-const url = `https://api.darksky.net/forecast/${key}/52.3451,5.4581?units=ca`;
+const url = `https://api.darksky.net/forecast/${key}/52.3451,5.4581?units=ca&exclude=currently,daily`;
 
 exports.handler = async function(event, context, callback) {
 
